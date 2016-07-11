@@ -14,9 +14,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ConorOBrien-Foxx/Fickle.git"
+    "url": "git+https://github.com/ConorOBrien-Foxx/readwrite.git"
   },
   "author": "Conor O'Brien",
   "license": "ISC"
-  "homepage": "https://github.com/ConorOBrien-Foxx/Fickle#readme"     
+  "homepage": "https://github.com/ConorOBrien-Foxx/readwrite#readme"     
 }
