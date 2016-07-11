@@ -1,0 +1,22 @@
+{
+  "name": "readwrite",
+  "version": "1.0.1",
+  "description": "A simple, non-verbose wrapper for reading and writing files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "read",
+    "write",
+    "file",
+    "short"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConorOBrien-Foxx/Fickle.git"
+  },
+  "author": "Conor O'Brien",
+  "license": "ISC"
+  "homepage": "https://github.com/ConorOBrien-Foxx/Fickle#readme"     
+}
