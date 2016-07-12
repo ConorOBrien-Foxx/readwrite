@@ -2,6 +2,12 @@
 
 This simple, lightweight, elegant library allows you to read files simply and efficiently.
 
+## Installation
+
+    λ npm install readwrite
+
+Simple!
+
 ## Examples
 
     rw.write("forty.two", "42 is a very special number.\nUse it wisely.");
