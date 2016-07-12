@@ -1,6 +1,6 @@
 {
   "name": "readwrite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple, non-verbose wrapper for reading and writing files",
   "main": "index.js",
   "scripts": {
