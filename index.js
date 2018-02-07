@@ -80,11 +80,14 @@ format.regular = _format;
 const read = (fileName) =>
     fs.readFileSync(fileName).toString();
 
-const write = (fileName, data) =>
-    (fs.writeFileSync(fileName, data), data);
+const write = (fileName, data) => (
+    data = data.toString(),
+    fs.writeFileSync(fileName, data),
+    data
+);
 
 const log = (...text) =>
-    text.forEach(t => process.stdout.write(t));
+    text.forEach(t => process.stdout.write(t.toString()));
 
 const logln = (...text) =>
     text.forEach(t => console.log(t));
@@ -103,5 +106,5 @@ module.exports = {
     logf: logf,
     logfln: logfln,
     format: format,
-    version: "1.0.2"
+    version: "1.1.0"
 };
